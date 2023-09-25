@@ -9,6 +9,7 @@ import Donation from './pages/Donation/Donation';
 import Statistics from './pages/Statistics/Statistics';
 import OneCard from './pages/Card/OneCard';
 import ErrorPage from './pages/ErrorPage/ErrorPage';
+import Donate from './pages/Donate/Donate';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -25,7 +26,7 @@ const router = createBrowserRouter([
 
     {
         path:"/donation",
-        element:<Donation></Donation>
+        element:<Donate></Donate>
 
     },
 

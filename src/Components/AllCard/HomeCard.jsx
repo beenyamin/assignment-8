@@ -14,7 +14,7 @@ const HomeCard = ({ card }) => {
 
             <Link to={`/oneCard/${id}`}>
 
-                <div className=" w-8/10 h-8/10 my-5 ">
+                <div className=" w-56 h-64 my-5 ">
 
                 <figure> <img className='w-64' src={Picture} alt="card!" /></figure>
                  <div className="card-body bg-red-400 ">

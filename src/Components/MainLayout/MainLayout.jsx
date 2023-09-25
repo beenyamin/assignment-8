@@ -6,7 +6,6 @@ const MainLayout = () => {
     return (
         <div>
             <Navbar></Navbar>
-
             <div className='py-10'>
                 <Outlet></Outlet>
                 

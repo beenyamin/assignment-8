@@ -1,5 +1,3 @@
-// import  { useEffect, useState } from 'react';
-// import { useLoaderData, useParams } from 'react-router-dom';
 
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
@@ -21,7 +19,6 @@ const OneCard = () => {
 
     return (
         <div className=" mx-auto w-11/12 "> 
-
     <MultipleCard card ={card} ></MultipleCard>
 
         </div>

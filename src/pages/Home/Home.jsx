@@ -12,6 +12,7 @@ const Home = () => {
             <Banner></Banner>
             <AllCard card ={card}></AllCard>
 
+
         </div>
     );
 };
